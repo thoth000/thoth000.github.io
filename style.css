@@ -1,0 +1,52 @@
+@font-face{
+    font-family: "Sawarabi Mincho";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.googleapis.com/css?family=Sawarabi+Mincho);
+}
+
+*{
+    font-family: "Sawarabi Mincho";
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-weight: 900;
+}
+
+.icon{
+    border-radius: 50%;
+}
+
+.learn{
+    opacity: .4;
+    transition: opacity .3s ease;
+}
+
+.learn:hover{
+    opacity: 1;
+}
+
+.link{
+    height: 50px;
+    opacity: 1;
+    transition: opacity .5s ease;
+}
+
+.link:hover{
+    opacity: .5;
+}
+
+td p{
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr{
+    border-color: grey;
+    border-width: 3px;
+}
