@@ -1,5 +1,4 @@
 # ポートフォリオ
-HTMLとCSSを学びながら作ったサイトです。
-よければご覧ください🤖
+HTMLとCSSを学びながら作ったサイト
 
-[thoth000のポートフォリオはこちら](https://thoth000.github.io/)
+[サイト](https://thoth000.github.io/)
