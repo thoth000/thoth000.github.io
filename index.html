@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuma Sano Portfolio</title>
+  <!-- Font Awesome for SNS icons -->
+  <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free/css/all.min.css">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav-header">
+    <div class="container nav-content">
+      <div class="logo">Yuma Sano</div>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <ul class="nav-container">
+        <li><a href="#about">About</a></li>
+        <li><a href="#sns">SNS</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="https://qiita.com/thoth000"  target="_blank" rel="noopener noreferrer">Blog</a></li> <!-- 将来的には自分のブログに -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container main">
+    <header>
+  <div class="profile">
+    <!-- もとの images/face.jpg を face1.jpg に、data-alt 属性に切り替え先を指定 -->
+    <img
+      id="profile-img"
+      src="images/virtual.jpg"
+      data-alt="images/face.jpg"
+      alt="profile image"
+    >
+    <div>
+      <h1>佐野 裕馬</h1>
+      <p>北海道大学情報科学院 修士課程</p>
+    </div>
+  </div>
+</header>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>表現学習に興味があります。</p>
+      <div class="tags">
+        <span class="tag">Representation Learning</span>
+        <span class="tag">CV</span>
+        <span class="tag">NLP</span>
+        <span class="tag">XAI</span>
+      </div>
+    </section>
+
+    <section id="sns">
+        <h2>Connect with Me</h2>
+        <ul class="sns-list">
+            <li><a href="https://github.com/thoth000" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://x.com/thoth000" target="_blank" rel="noopener noreferrer"><i class="fab fa-x"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/thoth000/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+    </section>
+
+    <section id="works">
+      <h2>Works</h2>
+      <div class="work-filters">
+        <span class="filter-tag active" data-filter="all">All</span>
+        <span class="filter-tag" data-filter="research">Research</span>
+        <span class="filter-tag" data-filter="development">Development</span>
+      </div>
+      <div class="card" data-type="research">
+        <h3>異方性拡散を活用した管状構造セグメンテーションにおける連続性の向上</h3>
+        <p>2025年度 人工知能学会全国大会</p>
+        <p class="card-date">2025-05-28</p>
+        <div class="card-links">
+            <a href="https://github.com/thoth000/Shape-Aware-Refinement" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://confit.atlas.jp/guide/event/jsai2025/subject/2Win5-63/detail?lang=ja" target="_blank" rel="noopener noreferrer">Conference page</a>
+        </div>
+        <div class="card-tags">
+          <span class="card-tag">Research</span>
+          <span class="card-tag">PDE</span>
+        </div>
+      </div>
+      <div class="card" data-type="research">
+        <h3>選手の3次元位置を追跡するバレーボール分析支援システム</h3>
+        <p>第28回高専シンポジウム in Yonago</p>
+        <p class="card-date">2023-01-27</p>
+        <div class="card-links">
+            <a href="https://github.com/thoth000/volleyball-analysis" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+        <div class="card-tags">
+          <span class="card-tag">Research</span>
+          <span class="card-tag">Computer Vision</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>
