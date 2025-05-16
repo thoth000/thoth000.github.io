@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const filters = document.querySelectorAll('.filter-tag');
 
   // JSON をフェッチしてカード描画
-  fetch("works.json")
+  fetch("./works.json")
     .then(res => res.json())
     .then(cards => {
       // 日付順にソート
