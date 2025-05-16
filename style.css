@@ -100,19 +100,23 @@ section { padding: 2rem 0; border-bottom: 1px solid var(--clr-divider); }
 section:last-child { border: none; }
 
 /* Works filter tags */
-.work-filters { margin-bottom: 1rem; }
+.work-filters {
+  margin-bottom: 1rem;
+}
 .filter-tag {
   display: inline-block;
   background: var(--clr-bg);
-  border: 1px solid var(--clr-highlight);
-  color: var(--clr-highlight);
+  border: 1px solid var(--clr-primary);
+  color: var(--clr-primary);
   padding: 0.3rem 0.8rem;
   margin: 0.2rem;
   border-radius: 4px;
   cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
 }
+.filter-tag:hover,
 .filter-tag.active {
-  background: var(--clr-highlight);
+  background: var(--clr-primary);
   color: var(--clr-bg);
 }
 
@@ -126,18 +130,29 @@ section:last-child { border: none; }
   color: var(--clr-primary);
 }
 
+/* Subthemes container */
 .card-subthemes {
   margin-bottom: 0.5rem;
 }
-.subtheme {
-  display: inline-block;
-  background: var(--clr-primary);
+
+/* Subtheme tags colored by main theme */
+.card[data-type="research"] .subtheme {
+  background: var(--clr-accent);
   color: var(--clr-bg);
   padding: 0.2rem 0.6rem;
   margin-right: 0.4rem;
   border-radius: 4px;
-  font-size: 0.8rem;
-  border: 1px solid var(--clr-primary);
+  border: 1px solid var(--clr-accent);
+  font-size: 1rem;
+}
+.card[data-type="development"] .subtheme {
+  background: var(--clr-highlight);
+  color: var(--clr-bg);
+  padding: 0.2rem 0.6rem;
+  margin-right: 0.4rem;
+  border-radius: 4px;
+  border: 1px solid var(--clr-highlight);
+  font-size: 1rem;
 }
 
 /* カードタイトルとの間に余白 */
@@ -145,7 +160,10 @@ section:last-child { border: none; }
   margin-bottom: 0.25rem;
 }
 
-.card .card-tags { margin-top: 0.5rem; }
+/* Tags inside cards */
+.card .card-tags {
+  margin-top: 0.5rem;
+}
 .card .card-tag {
   display: inline-block;
   background: var(--clr-tag-bg);
@@ -157,17 +175,28 @@ section:last-child { border: none; }
   border: 1px solid var(--clr-divider);
 }
 
-/* Card links */
-.card-links { margin: 0.5rem 0; }
+/* Card links styled like tags, colored by main theme */
+.card-links {
+  margin: 0.5rem 0;
+}
 .card-links a {
   display: inline-block;
   margin: 0.1rem;
   padding: 0.3rem 0.6rem;
-  background: var(--clr-accent);
+  background: var(--clr-primary); /* default fallback */
   color: var(--clr-bg);
   border-radius: 4px;
   text-decoration: none;
   font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+/* research cards: link bg = red */
+.card[data-type="research"] .card-links a {
+  background: var(--clr-accent);
+}
+/* development cards: link bg = blue */
+.card[data-type="development"] .card-links a {
+  background: var(--clr-highlight);
 }
 .card-links a:hover {
   background: var(--clr-primary);

@@ -43,5 +43,42 @@
     "links": [
       { "label": "PR on GitHub", "url": "https://github.com/lseventeen/FR-UNet/pull/20" }
     ]
-  }
+  },
+  {
+    "type": "development",
+    "subthemes": ["Mobile App"],
+    "title": "日々の活動価値を記録するアプリ Zikanri",
+    "description": "個人開発。アプリ甲子園2020にて第4位に入賞。",
+    "date": "2020-11-01",
+    "tags": ["Flutter", "Firebase"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/thoth000/zikanri" },
+      { "label": "Youtube", "url": "https://www.youtube.com/watch?v=BZ2b9y3uxo8" }
+    ]
+  },
+  {
+    "type": "development",
+    "subthemes": ["Mobile App"],
+    "title": "明日の活動を活性化する予定アプリ 明日の予定",
+    "description": "個人開発。アプリ甲子園2020にて上位30選。",
+    "date": "2020-10-31",
+    "tags": ["Flutter"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/thoth000/tomorrow_plan" }
+    ]
+  },
+  {
+  "type": "development",
+  "subthemes": ["Machine Learning"],
+  "title": "EmbeddingEdit: プロンプト埋め込み空間編集を用いた画像生成",
+  "description": "プロンプトトークン化から段階的な埋め込み空間編集・画像生成までを実現する拡散モデルを実装。",
+  "date": "2025-05-16",
+  "tags": ["Python", "Diffusion", "Embeddings"],
+  "links": [
+    {
+      "label": "GitHub",
+      "url": "https://github.com/thoth000/EmbeddingEdit"
+    }
+  ]
+}
 ]
