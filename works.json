@@ -5,7 +5,7 @@
     "title": "異方性拡散を活用した管状構造セグメンテーションにおける連続性の向上",
     "description": "2025年度 人工知能学会全国大会（JSAI2025）",
     "date": "2025-05-28",
-    "tags": ["CV", "Segmentation", "PDE"],
+    "tags": ["CV", "Segmentation", "PDE", "Interpretability"],
     "links": [
       { "label": "GitHub", "url": "https://github.com/thoth000/Shape-Aware-Refinement" },
       { "label": "Conference page", "url": "https://confit.atlas.jp/guide/event/jsai2025/subject/2Win5-63/detail?lang=ja" }
