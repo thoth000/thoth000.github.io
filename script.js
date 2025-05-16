@@ -30,7 +30,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // JSON をフェッチしてカード描画
   fetch("./works.json")
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    })
     .then(cards => {
       // 日付順にソート
       cards.sort((a, b) => new Date(b.date) - new Date(a.date));
@@ -109,7 +112,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // 初期フィルタリング（All）
       applyFilter('all');
-    });
+    })
+    .catch(err => console.error("読み込み失敗:", err));
 
   // フィルタ処理
   filters.forEach(btn => {
