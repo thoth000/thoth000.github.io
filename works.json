@@ -1,0 +1,47 @@
+[
+  {
+    "type": "research",
+    "subthemes": ["Paper"],
+    "title": "異方性拡散を活用した管状構造セグメンテーションにおける連続性の向上",
+    "description": "2025年度 人工知能学会全国大会（JSAI2025）",
+    "date": "2025-05-28",
+    "tags": ["CV", "Segmentation", "PDE"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/thoth000/Shape-Aware-Refinement" },
+      { "label": "Conference page", "url": "https://confit.atlas.jp/guide/event/jsai2025/subject/2Win5-63/detail?lang=ja" }
+    ]
+  },
+  {
+    "type": "research",
+    "subthemes": ["Paper"],
+    "title": "選手の3次元位置を追跡するバレーボール分析支援システム",
+    "description": "第28回高専シンポジウム in Yonago",
+    "date": "2023-01-27",
+    "tags": ["CV", "System Design"],
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/thoth000/volleyball-analysis" }
+    ]
+  },
+  {
+    "type": "research",
+    "subthemes": ["OSS Contrib"],
+    "title": "AlphaPoseのColabサンプルコードの修正",
+    "description": "サンプルコードが正常に動作するようプログラムを更新しました。",
+    "date": "2023-01-12",
+    "tags": [],
+    "links": [
+      { "label": "PR on GitHub", "url": "https://github.com/MVIG-SJTU/AlphaPose/pull/1102" }
+    ]
+  },
+  {
+    "type": "research",
+    "subthemes": ["OSS Contrib"],
+    "title": "FR-UNetにおけるDTIの3×3 Max-Poolingを用いた高速化",
+    "description": "Forループによる近傍探索を、3×3のMax-Poolingに置き換えて計算時間を大幅に短縮する手法を提案。",
+    "date": "2025-03-26",
+    "tags": ["Algorithm"],
+    "links": [
+      { "label": "PR on GitHub", "url": "https://github.com/lseventeen/FR-UNet/pull/20" }
+    ]
+  }
+]
