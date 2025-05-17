@@ -76,6 +76,10 @@
   "tags": ["Python", "Diffusion", "Embeddings"],
   "links": [
     {
+      "label": "Webpage",
+      "url": "https://thoth000.github.io/EmbeddingEdit/"
+    },
+    {
       "label": "GitHub",
       "url": "https://github.com/thoth000/EmbeddingEdit"
     }
