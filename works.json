@@ -7,6 +7,7 @@
     "date": "2025-05-28",
     "tags": ["CV", "Segmentation", "PDE", "Interpretability"],
     "links": [
+      { "label": "Project page", "url": "https://thoth000.github.io/Shape-Aware-Refinement/" },
       { "label": "GitHub", "url": "https://github.com/thoth000/Shape-Aware-Refinement" },
       { "label": "Conference page", "url": "https://confit.atlas.jp/guide/event/jsai2025/subject/2Win5-63/detail?lang=ja" }
     ]
@@ -76,7 +77,7 @@
   "tags": ["Python", "Diffusion", "Embeddings"],
   "links": [
     {
-      "label": "Webpage",
+      "label": "Project page",
       "url": "https://thoth000.github.io/EmbeddingEdit/"
     },
     {
