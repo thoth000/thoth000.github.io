@@ -27,7 +27,7 @@
     "type": "community",
     "subthemes": ["OSS"],
     "title": "FR-UNetにおけるDTIの3×3 Max-Poolingを用いた高速化",
-    "description": "Forループによる近傍探索を、3×3のMax-Poolingに置き換えて計算時間を大幅に短縮する手法を提案。",
+    "description": "Forループによる近傍探索を、3×3のMax-Poolingに置き換えて約500倍高速化する手法を提案しマージされた。",
     "date": "2025-03-26",
     "tags": ["Algorithm", "Pytorch", "Research"],
     "links": [
