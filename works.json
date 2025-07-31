@@ -1,7 +1,7 @@
 [
   {
     "type": "research",
-    "subthemes": ["Paper"],
+    "subthemes": ["Presentation"],
     "title": "異方性拡散を活用した管状構造セグメンテーションにおける連続性の向上",
     "description": "2025年度 人工知能学会全国大会（JSAI2025）",
     "date": "2025-05-28",
@@ -14,7 +14,7 @@
   },
   {
     "type": "research",
-    "subthemes": ["Paper"],
+    "subthemes": ["Presentation"],
     "title": "選手の3次元位置を追跡するバレーボール分析支援システム",
     "description": "第28回高専シンポジウム in Yonago",
     "date": "2023-01-27",
